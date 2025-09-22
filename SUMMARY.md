@@ -6,4 +6,5 @@
 
 ## Assets
 
-* [🛠️ plo-lib](assets/plo-lib.md)
+* [🛠️ plo-lib](assets/plo-lib/README.md)
+  * [❌ Common Errors](assets/plo-lib/common-errors.md)
