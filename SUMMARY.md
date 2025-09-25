@@ -13,4 +13,5 @@
 
 ***
 
-* [📢 Notify](notify.md)
+* [📢 Notify](notify/README.md)
+  * [👮 Dispatch API](notify/dispatch-api.md)
