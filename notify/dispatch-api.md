@@ -18,13 +18,14 @@ exports.plo_notify:AddCall(CallData)
 
 * CallData: `object`
   * title: `string`
-  * duration: `number`  <i class="fa-message-exclamation">:message-exclamation:</i> Duration in miliseconds when dispatch will be visible on player screen
   * message: `string`
   * priority: `"low"|"medium"|"high"|"critical"|"request"`
+  * duration?: `number`  <i class="fa-message-exclamation">:message-exclamation:</i> Duration in miliseconds when dispatch will be visible on player screen
   * code?: `string`  <i class="fa-message-exclamation">:message-exclamation:</i> Not defining this parameter will skip code element in UI.
   * jobs?: `string[]`  <i class="fa-message-exclamation">:message-exclamation:</i> Not defining this parameter will use `Config.Dispatch.DefaultJobs`
   * coords?: `vec3`  <i class="fa-message-exclamation">:message-exclamation:</i> Not defining this parameter will skip street code element in UI and won't allow to use **navigate feature** for this call
   * maxAssignableOfficers?: `number`  <i class="fa-message-exclamation">:message-exclamation:</i> Not defining this parameter will disable max assignable officers limiter
+  * incidentData?:&#x20;
 
 
 
